@@ -1,0 +1,139 @@
+body 
+{
+    background-color: lightblue;
+}
+
+.container 
+{
+    background: whitesmoke;
+    width: 100%;
+    height: 100px;
+
+}
+
+.main-1
+{
+
+  display:flex; 
+  justify-content: space-around
+}
+
+#name
+{
+   
+    width: auto;
+   
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+
+#name-1
+{
+  
+   padding-top: 20px;
+   color: red;
+}
+
+#name-2
+{
+      color: blue;
+}
+
+#name-3
+{
+   
+    padding-top: 20px;
+}
+
+
+
+.x
+  {
+    color: red;
+  }
+
+.y
+{
+    color: blue;
+}
+
+.main-2
+{
+  width: 100%;
+  background-color: whitesmoke;
+  margin-top: 30px;
+  
+  
+}
+
+input,textarea
+{
+  padding:10px ; 
+ 
+}
+button
+{
+    background-color: rgb(241, 45, 104);
+    color: white;
+    padding: 10px ;
+    border-radius: 3px;
+    border: 0;
+}
+
+iframe
+{
+  margin: 20px ;
+  
+}
+
+
+.main-2,.main-3
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#dot1
+{
+  color: #f71d48;
+  font-size: 20px;
+}
+#i1
+{
+  color: #ffffff;
+  background-color:#1e3050;
+  padding: 5px;
+}
+
+#i2
+{
+  color: #ffffff;
+  background-color: skyblue;
+  padding:5px;
+}
+
+#i3
+{
+  color: #ffffff;
+  background-color: #1e3050;
+  padding: 5px;
+}
+
+#i4
+{
+  color: #ffffff;
+  background-color: black;
+  padding: 5px;
+}
+
+.icons
+{
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+*
+{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
